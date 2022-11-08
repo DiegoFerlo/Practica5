@@ -1,0 +1,19 @@
+.button {
+
+    background-color: white;
+    width: 150px;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 8px hsl(0, 1%, 62%);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.button--pink {
+    width: 350px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
