@@ -1,7 +1,18 @@
-.text--big{
-    padding: rem;
-    line-height: 3rem;
-    font-style:normal;
-    margin-top: 1px;
-}
+@use '../mixins/responsive.scss' as *;
 
+.text--big {
+    padding: 1rem;
+    line-height: 3rem;
+    font-style: normal;
+    margin-top: 1px;
+
+    @include responsive(laptop) {
+        
+        opacity: 60%;
+        line-height: 2rem;
+        font-style: normal;
+        margin-top: 1px;
+        width: 600px;
+        text-align: left;
+    }
+}

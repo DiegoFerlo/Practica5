@@ -1,3 +1,11 @@
-.images--mockups{
+@use '../mixins/responsive.scss' as *;
+
+.images{
     padding: 6rem 0;
+
+    @include responsive(laptop) {
+        width: 50%;
+        
+    }
+   
 }
